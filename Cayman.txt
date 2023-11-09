@@ -33,11 +33,27 @@ Traveling aboard my spirit
 I walk to eternity
 
 
-These are my simple words that seek to touch the hearts of people who are simple and humble, but also dignified and rebellious.  These are my simple words to tell about my hacks, and to invite other people to hack with cheerful rebellion.
+These are my simple words that seek to touch the hearts of people who are simple and humble,
+but also dignified and rebellious.  These are my simple words to tell about my hacks, and to
+invite other people to hack with cheerful rebellion.
 
-I hacked a bank. I did it to give an injection of liquidity, but this time from below and to the simple and humble people who resist and rebel against injustices throughout the world. In other words: I robbed a bank and gave away the money.  But it wasn't me alone who did it. The free software movement, the offensive powershell community, the metasploit project and the hacker community in general are what made this hack possible. The exploit.in community made it possible to convert intrusion into a bank's computers into cash and bitcoin. The Tor, Qubes and Whonix projects, together with the cryptographers and activists who defend privacy and anonymity, are my nahuales, that is, my protectors [1]. They accompany me every night and make it possible for me to remain free.
+I hacked a bank. I did it to give an injection of liquidity, but this time from below and to
+the simple and humble people who resist and rebel against injustices throughout the world. In
+other words: I robbed a bank and gave away the money.  But it wasn't me alone who did it. The 
+free software movement, the offensive powershell community, the metasploit project and the hacker
+community in general are what made this hack possible. The exploit.in community made it possible
+to convert intrusion into a bank's computers into cash and bitcoin. The Tor, Qubes and Whonix
+projects, together with the cryptographers and activists who defend privacy and anonymity, 
+are my nahuales, that is, my protectors [1]. They accompany me every night and make it possible
+for me to remain free.
 
-I did nothing complicated. I only saw the injustice in this world, felt love for all beings, and expressed that love in the best way I could, through the tools I know how to use. Hate does not move me to banks, or to the rich, but a love for life, and the desire for a world where everyone can realize their potential and live a full life. I would like to explain a little how I see the world, so that you can get an idea of ​​how I came to feel and act like this. And I also hope that this guide is a recipe that you can follow, combining the same ingredients to bake the same cake. Who knows, out there these powerful tools could end up also serving you to express the love you feel.
+I did nothing complicated. I only saw the injustice in this world, felt love for all beings, and
+expressed that love in the best way I could, through the tools I know how to use. Hate does not
+move me to banks, or to the rich, but a love for life, and the desire for a world where everyone 
+can realize their potential and live a full life. I would like to explain a little how I see the 
+world, so that you can get an idea of ​​how I came to feel and act like this. And I also hope that 
+this guide is a recipe that you can follow, combining the same ingredients to bake the same cake.
+Who knows, out there these powerful tools could end up also serving you to express the love you feel.
 
 
 We are all innocent, free, wild wild children 
@@ -46,12 +62,20 @@ We just have to put in our hearts a burning star
 (song by Alberto Kuselman and Chamalú)
 
 
-The police will invest a chingo of resources to investigate me. They think the system works, or at least it will work once they catch all the “bad boys”. I am nothing more than the product of a system that does not work. As long as there is injustice, exploitation, alienation, violence and ecological destruction, many more will come like me: an endless series of people who will reject as illegitimate the bad system responsible for this suffering. That badly done system is not going to get fixed by arresting me. I am only one of the millions of seeds that Tupac planted 238 years ago in La Paz [2], and I hope that my actions and writings water the seed of rebellion in their hearts.
+The police will invest a chingo of resources to investigate me. They think the system works, or 
+at least it will work once they catch all the “bad boys”. I am nothing more than the product of
+a system that does not work. As long as there is injustice, exploitation, alienation, violence
+and ecological destruction, many more will come like me: an endless series of people who will reject
+as illegitimate the bad system responsible for this suffering. That badly done system is not
+going to get fixed by arresting me. I am only one of the millions of seeds that Tupac planted
+238 years ago in La Paz [2], and I hope that my actions and writings water the seed of rebellion
+in their hearts.
 
 ### Footnotes
 
 1.  https://en.wikipedia.org/wiki/Cadejo#The_legend
-2.  It was before he was killed by the Spaniards, just a day like yesterday, that he said that "they will only kill me, but tomorrow I will return and be millions."
+2.  It was before he was killed by the Spaniards, just a day like yesterday, that he said that "they
+will only kill me, but tomorrow I will return and be millions."
 
 
  ________________________________
@@ -66,7 +90,10 @@ The police will invest a chingo of resources to investigate me. They think the s
           `'
 
 
-To make us listen, hackers sometimes have to cover their faces, because we are not interested you in seeing our face but instead in understanding our word.  The mask can be from Guy Fawkes, Salvador Dalí, from Fsociety, or in some cases the puppet of a crested toad. By affinity, this time I went to dig up a dead man to lend me his balaclava. I think then that I should clarify that Sup Marcos is innocent of all that is told here because, besides being dead, I did not consult him. I hope that his ghost, if he finds out from a Chiapaneca hammock, knows how to find the goodness to, as they say there, "dismiss this deep fake" with the same gesture with which an unwelcome insect moves away - which could well be a beetle.
+To make us listen, hackers sometimes have to cover their faces, because we are not interested you in
+seeing our face but instead in understanding our word.  The mask can be from Guy Fawkes, Salvador Dalí,
+from Fsociety, or in some cases the puppet of a crested toad. By affinity, this time I went to dig up
+a dead man to lend me his balaclava. I think then that I should clarify that Sup Marcos is innocent of all that is told here because, besides being dead, I did not consult him. I hope that his ghost, if he finds out from a Chiapaneca hammock, knows how to find the goodness to, as they say there, "dismiss this deep fake" with the same gesture with which an unwelcome insect moves away - which could well be a beetle.
 
 Even so with the balaclava and the name change, many of those who support my actions may pay too much attention to my person. With their own autonomy shattered for a lifetime of domination, they will be looking for a leader to follow, or a hero who saves them. But behind the balaclava, I'm just a girl. We are all wild children. We just have to place a star in the beds in our hearts.
 
