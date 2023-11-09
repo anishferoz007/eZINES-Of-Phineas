@@ -1,23 +1,3 @@
-__Aleksey Notes: I got this translation from [here](https://pastebin.com/raw/XSsyUb0f) and slightly modified it to fit markdown.__
-
-
-*******************************
-
-Translation notes:
-
-Bulk of translation done by Google Translate (which did a remarkably good job outside of slang and computer terms!), with edits for clarity and formatting. I got the Spanish version from the bottom of this article, it’s in the leak: https://unicornriot.ninja/2019/massive-hack-strikes-offshore-cayman-national-bank-and-trust/
-
-The UR article also has a lot of info about the history of Phineas’s hacks and resources she’s provided to the community in the past, and Crimethinc has some interviews with her. She’s also posted video interviews (a puppet and a voice actor reading chat logs, lol) and a screencast of her hacking a police department :)
-
-Sources are mostly left as in the original, except where there was an obvious directly translated english version lying around. Phineas Fisher frequently cites the original HackBack guide in Spanish. The English version is here: https://www.exploit-db.com/papers/41915. The resources and content may not be precisely the same between the two, so if you’re interested I’d recommend also running the Spanish one through gtranslate.
-
-Phineas, if you read this, the stuff you do is awesome and please never stop! I’m so glad you wrote this to accompany your leak, to educate people about important political topics and how to use computer skills to improve the world we live in. 
-
-On a personal note, I was also really happy that you referred to yourself publicly as a girl, there aren’t many other female anarchists or cybersec nerds that I’ve met, much less someone I’ve thought was so incredible for years now. OPSEC be damned, you’re inspirational as fuck, thank you for what you do.
-
-*******************************
-
-
 
     _   _            _      ____             _    _ 
    | | | | __ _  ___| | __ | __ )  __ _  ___| | _| |
