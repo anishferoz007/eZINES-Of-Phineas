@@ -448,6 +448,7 @@ access to his network, but usually this is the easy part. The most complicated p
 they operate and how to get what you want out of their network.
 
 [1] https://www.exploit-db.com/papers/41914
+
 [4.3 - Fun facts]
 Following the investigation they did about the hacking, I found it interesting to see that, by the same 
 time I did it, the bank could have been compromised by someone else through a targeted phishing email [1]. 
@@ -469,6 +470,7 @@ web access.
 [2] https://twitter.com/thegrugq/status/563964286783877121
 [3] https://github.com/EmpireProject/Empire
 [4] https://github.com/rapid7/metasploit-framework
+
  [5 - Understand Banking Operations]
 To understand how the bank operated, and how I could get money, I followed the techniques that I summarized
 in [1], in section “13.3 - Internal Recognition”. I downloaded a list of all file names, grepped for words
@@ -502,6 +504,7 @@ _______________________________________
          (.)/   ||     ||
           `'
 [6 - Send the money]
+
 I had no idea what I was doing, so I was discovering it along the way. Somehow, the first transfers I sent 
 went well. The next day, I screwed up by sending a transfer to Mexico that ended my fun. This bank sent 
 its international transfers through its correspondent account in Natwest. I had seen that the correspondent
@@ -515,6 +518,7 @@ exceeded the shipping limit by fast payments, and would have had to use NWBKGB2L
 received an error message for this. They read the messages, investigated it, and found the rest of my transfers.
 
 [7 - The loot]
+
 From what I write, you can get a complete idea of what my ideals are and to what things I give my support.
 But I would not like to see anyone in legal trouble for receiving expropriated funds, so not another word 
 of where the money went. I know that journalists are probably going to want to put some number on how many 
@@ -525,6 +529,7 @@ from the ego. Unfortunately those above, the rich and powerful, public figures, 
 are based on acting more since the ego than from love. It is in the simple, humble and "invisible" people 
 that we should look at and whom we should admire.
 [8 - Cryptocurrencies]
+
 Redistributing expropriated money to Chilean projects seeking positive social change would be easier and 
 safer if those projects accepted anonymous donations via cryptocurrencies such as monero, zcash, or at 
 least bitcoin. It is understood that many of these projects have an aversion to cryptocurrencies, as they 
@@ -532,6 +537,7 @@ resemble some strange hypercapitalist dystopia rather than the social economy we
 skepticism, but I think they are useful to allow donations and anonymous transactions, by limiting government
 surveillance and control. Same as cash, whose use many countries are trying to limit for the same reason.
 [9 - Powershell]
+
 In this operation, as in [1], I used a lot of powershell. Then, powershell was super cool, you could do
 almost anything you wanted, without antivirus detection and with very little forensic footprint. It 
 happens that with the introduction of AMSI [2], offensive powershell is retiring. Today offensive C# is what
@@ -559,9 +565,9 @@ ___________________________
          (.)/   ||     ||
           `'
 [10 - Torrent]
-Privacy for the weak, transparency for the powerful.
-Offshore banking provides executives, politicians and millionaires with privacy from of their own government
-. Exposing them may sound hypocritical on my part, since I am generally in favor of privacy and against
+Privacy for the weak, transparency for the powerful. Offshore banking provides executives,
+politicians and millionaires with privacy from of their own government.Exposing them may
+sound hypocritical on my part, since I am generally in favor of privacy and against
 government oversight. But the law was already written by and for the rich: it protects its system of
 exploitation, with some limits (such as taxes) so that society can function and the system does not
 collapse under the weight of its own greed. So no, privacy is not the same for the powerful, when it
